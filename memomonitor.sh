@@ -2,6 +2,6 @@
 set -x
 while true
 do
-    ./zecwallet-cli list | py main.py
+    ./zecwallet-cli list | python main.py
     sleep 20
 done
