@@ -5,7 +5,7 @@ import ast
 # URL = "http://localhost:8080/addMessage"
 URL = "https://cmc-api-backend.herokuapp.com/addMessage"
 
-with open("memooutput.txt", "r") as oldtxns:
+with open("memooutput.txt", "r", encoding='latin-1') as oldtxns:
     records = []
     for i in oldtxns:
         records.append(ast.literal_eval(i))
