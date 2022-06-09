@@ -1,2 +1,2 @@
 import subprocess
-print(subprocess.run("./memoprocessor.py", shell=True))
+print(subprocess.run("./main.py", shell=True))
