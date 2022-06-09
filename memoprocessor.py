@@ -1,5 +1,5 @@
 import sys, json
-#import requests
+import requests
 import ast
 
 # URL = "http://localhost:8080/addMessage"
